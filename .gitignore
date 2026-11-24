@@ -1,0 +1,24 @@
+# 1. Variables de entorno y credenciales (SEGURIDAD)
+.env
+.env.*
+!.env.example
+
+# 2. Entornos virtuales y compilados de Python (PESO Y LIMPIEZA)
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# 3. Dependencias y builds de React / Node (PESO)
+node_modules/
+dist/
+build/
+
+# 4. Archivos del sistema operativo y editores (LIMPIEZA)
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
